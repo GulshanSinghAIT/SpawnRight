@@ -27,7 +27,7 @@ const Nav = () => {
   // }, []);
   return (
     <div className=" z-30 relative">
-      <nav className="fixed overflow-hidden py-6 md:py-2 left-1/2 top-8 isolate z-20 flex w-fit -translate-x-1/2 items-center justify-between self-stretch rounded-[20px] bg-neutral-900 pe-2 ps-5 shadow-[0px_3.35px_2.21px_#0000001c,0px_8.05px_5.32px_#00000014,0px_15.15px_10.02px_#00000011,0px_27.03px_17.87px_#0000000e,0px_50.55px_33.42px_#0000000b,0px_121px_80px_#00000008] md:ps-8">
+      <nav className="fixed overflow-hidden py-2 md:py-2 left-1/2 top-8 isolate z-20 flex w-fit -translate-x-1/2 items-center justify-between self-stretch rounded-[20px] bg-neutral-900 pe-2 ps-5 shadow-[0px_3.35px_2.21px_#0000001c,0px_8.05px_5.32px_#00000014,0px_15.15px_10.02px_#00000011,0px_27.03px_17.87px_#0000000e,0px_50.55px_33.42px_#0000000b,0px_121px_80px_#00000008] md:ps-8">
         
         <span className="text-xl py-2 whitespace-nowrap text-white font-bold  pr-7">
         SPAWN RIGHT
