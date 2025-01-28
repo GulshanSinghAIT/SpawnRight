@@ -20,19 +20,7 @@ Toastify: Library for displaying error notifications.
 
 TailwindCSS: Styling the website and components.
 
-Installation
 
-Clone the repository:
-
-git clone <repository_url>
-
-Navigate to the project directory:
-
-cd esports-player-search
-
-Install the dependencies:
-
-npm install
 
 Usage
 
