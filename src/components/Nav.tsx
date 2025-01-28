@@ -2,37 +2,37 @@
 import { useState, useEffect } from "react";
 
 const Nav = () => {
-  const [showDiv, setShowDiv] = useState("w-[0] p-0 transition-all  duration-500 ");
-  const [showIcon, setShowIcon] = useState(" transition-all  duration-500");
-  console.log(showIcon);
-  const handleScroll = () => {
-    const scrollPosition = window.scrollY;
-    const windowHeight = window.innerHeight;
+  // const [showDiv, setShowDiv] = useState("w-[0] p-0 transition-all  duration-500 ");
+  // const [showIcon, setShowIcon] = useState(" transition-all  duration-500");
+  // console.log(showIcon);
+  // const handleScroll = () => {
+  //   const scrollPosition = window.scrollY;
+  //   const windowHeight = window.innerHeight;
 
-    if (scrollPosition > windowHeight * 0.8) {
-      setShowDiv("w-[500px] pe-2 ps-4 transition-all  duration-500");
-      setShowIcon("hidden  transition-all  duration-500");
-    } else {
-      setShowDiv("w-[0] transition-all  duration-500");
-      setShowIcon("transition-all  duration-500");
-    }
-  };
+  //   if (scrollPosition > windowHeight * 0.8) {
+  //     setShowDiv("w-[500px] pe-2 ps-4 transition-all  duration-500");
+  //     setShowIcon("hidden  transition-all  duration-500");
+  //   } else {
+  //     setShowDiv("w-[0] transition-all  duration-500");
+  //     setShowIcon("transition-all  duration-500");
+  //   }
+  // };
 
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", handleScroll);
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
   return (
     <div className=" z-30 relative">
       <nav className="fixed overflow-hidden py-6 md:py-2 left-1/2 top-8 isolate z-20 flex w-fit -translate-x-1/2 items-center justify-between self-stretch rounded-[20px] bg-neutral-900 pe-2 ps-5 shadow-[0px_3.35px_2.21px_#0000001c,0px_8.05px_5.32px_#00000014,0px_15.15px_10.02px_#00000011,0px_27.03px_17.87px_#0000000e,0px_50.55px_33.42px_#0000000b,0px_121px_80px_#00000008] md:ps-8">
         
-        <span className="text-xl whitespace-nowrap text-white font-bold  pr-7">
+        <span className="text-xl py-2 whitespace-nowrap text-white font-bold  pr-7">
         SPAWN RIGHT
         </span>
-        <div
+        {/* <div
           className={` ${showDiv} duration-300 hidden overflow-hidden items-center gap-2 rounded-xl  bg-neutral-800 py-2   focus-within:border-white/10 hover:bg-neutral-700 md:flex`}
         >
           <input
@@ -80,7 +80,7 @@ const Nav = () => {
               ></path>
             </svg>
           </button>
-        </div>
+        </div> */}
       </nav>
     </div>
   );

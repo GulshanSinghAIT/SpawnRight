@@ -84,6 +84,12 @@ const PlayerDetailsComponent: React.FC = () => {
       setLoading(false);
     }
   };
+
+  const Loading = () => (
+    <div className='fixed inset-0 flex items-center justify-center bg-black/50 '>
+        <div className="loader"></div>
+    </div>
+  );
   
 
   return (
@@ -108,6 +114,7 @@ const PlayerDetailsComponent: React.FC = () => {
         </div>
 
       </div>
+      {loading && <Loading />}
     <div className="px-3">
       {error && <Notfound  />}
 

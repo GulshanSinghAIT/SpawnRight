@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import PlayerDetails from './components/PlayerDetails';
+import './App.css';
 
 const App = () => {
   return (
