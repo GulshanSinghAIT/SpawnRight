@@ -1,4 +1,4 @@
-import React from "react";
+
 import { TbDeviceGamepad2 } from "react-icons/tb";
 const NotFoundCard = () => {
     return (

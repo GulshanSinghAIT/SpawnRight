@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 const Nav = () => {
   const [showDiv, setShowDiv] = useState("w-[0] p-0 transition-all  duration-500 ");
   const [showIcon, setShowIcon] = useState(" transition-all  duration-500");
-
+  console.log(showIcon);
   const handleScroll = () => {
     const scrollPosition = window.scrollY;
     const windowHeight = window.innerHeight;
