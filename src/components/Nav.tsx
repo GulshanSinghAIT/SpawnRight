@@ -1,5 +1,5 @@
 
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 
 const Nav = () => {
   // const [showDiv, setShowDiv] = useState("w-[0] p-0 transition-all  duration-500 ");
